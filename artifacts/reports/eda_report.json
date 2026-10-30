@@ -1,0 +1,223 @@
+{
+  "total_samples": 30,
+  "class_distribution": {
+    "Real (0)": 16,
+    "Fake (1)": 14
+  },
+  "class_percentages": {
+    "Real (%)": 53.33,
+    "Fake (%)": 46.67
+  },
+  "token_length_stats": {
+    "Real News": {
+      "mean": 44.0,
+      "median": 43.0,
+      "std": 5.91,
+      "min": 35.0,
+      "max": 58.0
+    },
+    "Fake News": {
+      "mean": 42.36,
+      "median": 42.5,
+      "std": 2.72,
+      "min": 38.0,
+      "max": 50.0
+    }
+  },
+  "lexical_diversity": {
+    "Real News (TTR)": 0.7472,
+    "Fake News (TTR)": 0.828
+  },
+  "sensationalism_signals": {
+    "All-Caps Word Ratio": {
+      "Real News": 0.0041,
+      "Fake News": 0.0119
+    },
+    "Punctuation Intensity (!/?)": {
+      "Real News": 0.0,
+      "Fake News": 0.43
+    },
+    "Clickbait Lexicon Frequency": {
+      "Real News": 0.0,
+      "Fake News": 1.71
+    },
+    "Sentiment Polarity Score": {
+      "Real News": 0.188,
+      "Fake News": -0.143
+    }
+  },
+  "readability_scores": {
+    "Flesch Reading Ease (Higher=Simpler)": {
+      "Real News": 3.33,
+      "Fake News": 8.71
+    }
+  },
+  "top_fake_unigrams": [
+    [
+      "secret",
+      6
+    ],
+    [
+      "leak",
+      4
+    ],
+    [
+      "reveal",
+      4
+    ],
+    [
+      "government",
+      3
+    ],
+    [
+      "contain",
+      3
+    ],
+    [
+      "whistleblower",
+      3
+    ],
+    [
+      "frequency",
+      3
+    ],
+    [
+      "mainstream",
+      3
+    ],
+    [
+      "immediately",
+      3
+    ],
+    [
+      "water",
+      3
+    ]
+  ],
+  "top_real_unigrams": [
+    [
+      "agency",
+      7
+    ],
+    [
+      "federal",
+      5
+    ],
+    [
+      "rate",
+      5
+    ],
+    [
+      "report",
+      5
+    ],
+    [
+      "percent",
+      5
+    ],
+    [
+      "follow",
+      4
+    ],
+    [
+      "world",
+      4
+    ],
+    [
+      "health",
+      4
+    ],
+    [
+      "internate",
+      4
+    ],
+    [
+      "nate",
+      4
+    ]
+  ],
+  "top_fake_bigrams": [
+    [
+      "mainstream media",
+      2
+    ],
+    [
+      "drink pure",
+      2
+    ],
+    [
+      "completely fabricat",
+      2
+    ],
+    [
+      "shock secret",
+      1
+    ],
+    [
+      "secret government",
+      1
+    ],
+    [
+      "government vault",
+      1
+    ],
+    [
+      "vault discover",
+      1
+    ],
+    [
+      "discover contain",
+      1
+    ],
+    [
+      "contain bann",
+      1
+    ],
+    [
+      "bann 100",
+      1
+    ]
+  ],
+  "top_real_bigrams": [
+    [
+      "federal reserve",
+      2
+    ],
+    [
+      "jame webb",
+      2
+    ],
+    [
+      "webb space",
+      2
+    ],
+    [
+      "space telescope",
+      2
+    ],
+    [
+      "peer review",
+      2
+    ],
+    [
+      "world first",
+      2
+    ],
+    [
+      "world health",
+      2
+    ],
+    [
+      "health organize",
+      2
+    ],
+    [
+      "tuberculosi incidence",
+      2
+    ],
+    [
+      "supreme court",
+      2
+    ]
+  ]
+}

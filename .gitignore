@@ -1,0 +1,35 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+python314/
+
+# Jupyter & Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Model Weights & Large Checkpoints (optional: keep best_model.joblib if under 100MB)
+artifacts/models/transformer_roberta/
+*.bin
+*.pt
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
